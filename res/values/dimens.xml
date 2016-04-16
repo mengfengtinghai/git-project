@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	
+    <!-- 标题栏高度 -->
+	<dimen name="title_height">50.0dip</dimen>
+	
+	<!-- 标题栏按钮 -->
+	<dimen name="btn_back_width">12.0dip</dimen>
+	<dimen name="btn_back_height">22.0dip</dimen>
+	<dimen name="btn_title_width">32.0dip</dimen>
+	<dimen name="btn_title_height">32.0dip</dimen>
+	
+	<!-- 公共左右边距 -->
+	<dimen name="left">12.0dip</dimen>
+	<dimen name="right">16.0dip</dimen>
+	
+	<!-- 我的投影仪页面 -->
+	<dimen name="progector_menu_h1">86dip</dimen>
+	<dimen name="progector_menu_right">65.0dip</dimen>
+	<dimen name="progector_menu_left">65.0dip</dimen>
+	
+	<!-- pop window 
+	<dimen name="pop_sort_right1">75.0dip</dimen>	
+	<dimen name="pop_sort_right3">3.0dip</dimen> -->
+	<dimen name="pop_progect_right">3.0dip</dimen>
+	<!-- 上网方式菜单高度 -->
+	<dimen name="connect_menu_height">50.0dip</dimen>
+	
+	<!-- 投影仪设置 -->
+	<dimen name="progector_set_vh1">24.0dip</dimen>
+	<dimen name="progector_set_vh2">50.0dip</dimen>
+	<dimen name="progector_set_vh3">8.0dip</dimen>
+	
+	<!-- 滑动开关尺寸 -->
+	<dimen name="switch_width">48.0dip</dimen>
+	<dimen name="switch_height">22.0dip</dimen>
+	
+</resources>

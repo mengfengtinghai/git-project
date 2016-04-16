@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical" 
+    xmlns:tools="http://schemas.android.com/tools" 
+    tools:context=".SetLightnessDialog">
+
+    <TextView
+        android:id="@+id/picker_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:singleLine="true"
+        android:text="@string/progector_lightness"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/bg_line" />
+    
+    <RadioGroup
+        android:id="@+id/RG"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/b1"
+        android:orientation="vertical" >
+        <RadioButton
+            android:id="@+id/radio_high_light"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height"
+       	    android:layout_marginLeft="10dp"            
+            android:layout_marginRight="10dp"
+            android:drawableRight="@drawable/btn_radio"
+            android:drawableLeft="@drawable/icon_about"
+            android:text="@string/high_light"
+            android:textSize="18sp" 
+            android:button="@null"          
+            android:contentDescription="@string/none" />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/bg_line" />
+
+        <RadioButton
+            android:id="@+id/radio_low_light"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height"
+       	    android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:drawableRight="@drawable/btn_radio"
+            android:drawableLeft="@drawable/icon_about"
+            android:text="@string/low_light"
+             android:textSize="18sp" 
+            android:button="@null"
+            android:contentDescription="@string/none" />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/bg_line" />
+        
+        <RadioButton
+            android:id="@+id/radio_off_light"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height"
+            android:layout_marginRight="10dp"
+            android:drawableRight="@drawable/btn_radio"
+            android:drawableLeft="@drawable/icon_about"
+           android:text="@string/off_light"
+             android:textSize="18sp" 
+            android:button="@null"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="@string/none" />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/bg_line" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/bg_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_vp_cancle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/cancle" />
+
+        <View
+            android:layout_width="0.5dip"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_line" />
+
+        <Button
+            android:id="@+id/btn_vp_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/ok" />
+    </LinearLayout>
+
+</LinearLayout>

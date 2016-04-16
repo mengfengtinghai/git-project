@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">progector</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="item_progector">Progector</string>
+     <string name="progector_more">More</string>
+     <string name="progector_folder">Folder</string>
+     
+	<string name="progector_settings">投影仪设置</string>
+     <string name="progector_net_conn">网络设置与连接</string>
+     <string name="progector_wifi_settings">WIFI设置</string>
+     <string name="progector_hotspot_settings">热点设置</string>
+     <string name="progector_bluetooth_settings">蓝牙设置</string>
+     <string name="bluetooth_settings_off">关闭</string>
+     <string name="progector_other_settings">其他设置</string>
+     <string name="progector_lightness">灯泡亮度</string>
+     <string name="high_light">高亮</string>
+     <string name="low_light">低亮</string>
+     <string name="off_light">关闭</string>
+     <string name="progector_auto_standby">自动待机</string>
+     <string name="progector_auto_shutdown">自动关机</string>
+     <string name="unknown_source">未知来源</string>
+     <string name="keystone_correction">梯形校正</string>
+     <string name="auto_correction">自动梯形校正</string>
+     <string name="manual_correction">手动梯形校正</string>
+     <string name="app_management">APP应用管理</string>
+     <string name="hdmi_advanced_settings">HDMI高级设置</string>
+     <string name="shutdown_hdmi">关闭HDMI</string>
+     <string name="hdmi_in">HDMI IN</string>
+     <string name="hdmi_out">HDMI OUT</string>
+     <string name="apk_file">APK文件</string>
+     <string name="apk_install">安装</string>
+      <string name="progector_system">系统</string>
+     <string name="progector_memorary">投影仪内存</string>
+     <string name="empty_memorary">清空内存</string>
+     <string name="language_settings">语言设置</string>
+     <string name="date_time">日期与时间</string>
+     <string name="time_setting">设置时间</string>
+     <string name="progector_about">关于</string>
+     <string name="progector_login_password_settings">投影仪登陆密码设置</string>
+     <string name="progector_shutdown">关机</string>
+     <string name="progector_wareless_bridge">无线桥接</string>
+     <string name="select_net">选择网络</string>
+     
+      <string name="date_time_set_timezone" msgid="5045627174274377814">"选择时区"</string>
+     
+     <string name="ssid">SSID：Lenovo Wifi</string>
+      <string name="ip_address">IP地址：192.097.321</string>
+      
+     <string name="ok">确定</string>
+    <string name="cancle">取消</string>
+    <string name="none"></string>
+     
+     
+     
+</resources>

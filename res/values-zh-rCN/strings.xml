@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">progector</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="item_progector">投影仪</string>
+     <string name="progector_more">更多</string>
+     <string name="progector_folder">文件夹</string>
+     
+     <string name="progector_settings">投影仪设置</string>
+     <string name="progector_net_conn">网络设置与连接</string>
+     <string name="progector_wifi_settings">WIFI设置</string>
+     
+
+</resources>

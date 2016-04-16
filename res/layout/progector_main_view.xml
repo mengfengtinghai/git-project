@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical" 
+   android:background="@drawable/bg_page_content" >
+
+    <RelativeLayout
+        android:id="@+id/function_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/lightgray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/btn_back_width"
+                android:layout_height="@dimen/btn_back_height"
+                android:layout_marginLeft="@dimen/left"
+                android:background="@layout/back_btn" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/left"
+                android:text="@string/item_progector"
+                android:textColor="#FF6900"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+      <Button
+            android:id="@+id/btn_more"
+            android:layout_width="@dimen/btn_title_width"
+            android:layout_height="@dimen/btn_title_height"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"          
+            android:contentDescription="@string/progector_more"
+            android:layout_marginRight="@dimen/right"
+            android:background="@drawable/btn_title_more" >
+        </Button>
+        
+   	 	<Button
+            android:id="@+id/btn_folder"
+            android:layout_width="@dimen/btn_title_width"
+            android:layout_height="@dimen/btn_title_height"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/btn_more"            
+            android:layout_marginRight="@dimen/right"
+            android:background="@drawable/icon_folder"
+            android:contentDescription="@string/progector_folder" />   
+        
+    </RelativeLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_line"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/progector_menu_h1"
+          android:background="@color/lightgray"
+          android:orientation="horizontal" >
+
+          <Button
+            android:id="@+id/btn_more"
+            android:layout_width="@dimen/btn_title_width"
+            android:layout_height="@dimen/btn_title_height"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"          
+            android:contentDescription="@string/progector_more"
+            android:layout_marginLeft="@dimen/progector_menu_left"
+            android:background="@drawable/icon_about" >
+        </Button>
+
+          <Button
+            android:id="@+id/btn_home"
+            android:layout_width="@dimen/btn_title_width"
+            android:layout_height="@dimen/btn_title_height"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/progector_more"
+            android:layout_centerInParent="true"
+            android:background="@drawable/btn_title_user" >
+        </Button>
+        
+         <Button
+            android:id="@+id/btn_more"
+            android:layout_width="@dimen/btn_title_width"
+            android:layout_height="@dimen/btn_title_height"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"          
+            android:contentDescription="@string/progector_more"
+            android:layout_marginRight="@dimen/progector_menu_right"
+            android:background="@drawable/btn_pause" >
+        </Button>
+      </RelativeLayout>
+		 
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_line"
+        android:orientation="horizontal" >
+       
+    </LinearLayout>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" 
+          android:background="@color/lightgray_overlay">
+       <Button
+            android:id="@+id/btn_cursor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"          
+            android:contentDescription="@string/progector_more"
+            android:layout_marginLeft="@dimen/progector_menu_left"
+            android:background="@drawable/btn_cursor_mode"
+            android:visibility="invisible">
+        </Button>
+
+        <Button
+            android:id="@+id/btn_mouse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/btn_mouse_mode"
+            android:contentDescription="@string/progector_more" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="光标模式" />
+
+        </RelativeLayout>
+</LinearLayout>

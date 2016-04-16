@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/progector_set_vh2" 
+    android:background="#FFFFFF"
+    android:drawableRight="@drawable/icon_arrow"
+    android:gravity="left|center_vertical"
+    android:paddingLeft="@dimen/left"
+    android:paddingRight="@dimen/right"
+    android:textSize="18sp" >
+
+</Button>

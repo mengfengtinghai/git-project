@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/lightgray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        
+        <LinearLayout 
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            
+            <ImageView 
+                android:layout_width="@dimen/btn_back_width"
+                android:layout_height="@dimen/btn_back_height"
+                android:layout_marginLeft="@dimen/left"
+                android:background="@layout/back_btn"/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/left"
+                android:text="@string/progector_settings"
+               	android:textColor="#FF6900"
+                android:textSize="18sp"  />
+        </LinearLayout>
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_line"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    
+      <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+          
+          	<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/progector_set_vh1"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/left"
+                    android:text="@string/progector_net_conn"
+                    android:textSize="12sp" 
+                    android:textColor="@color/lightgray"/>
+            </LinearLayout>
+
+          	<Button
+          	    android:id="@+id/progector_wifi_settings"
+          	    android:layout_width="match_parent"
+          	    android:layout_height="@dimen/progector_set_vh2"
+          	    android:background="#FFFFFF"
+          	    android:drawableRight="@drawable/icon_arrow"
+          	    android:gravity="left|center_vertical"
+          	    android:paddingLeft="@dimen/left"
+          	    android:paddingRight="@dimen/right"
+          	    android:text="@string/progector_wifi_settings"
+          	    android:textSize="18sp" />
+   			<!-- 
+          	     <include 
+          	     layout="@layout/progect_setting_button" 
+          	     android:id="@+id/progector_wifi_settings"
+          	     android:text="@string/progector_wifi_settings" /> -->
+          	 
+          	<LinearLayout
+          	    android:layout_width="match_parent"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="@dimen/left"
+          	    android:layout_marginRight="@dimen/right"
+          	    android:background="@drawable/bg_line"
+          	    android:orientation="horizontal" >
+          	</LinearLayout>
+          	
+          	<Button
+          	    android:id="@+id/progector_hotspot_settings"
+          	    android:layout_width="match_parent"
+          	    android:layout_height="@dimen/progector_set_vh2"
+          	    android:background="#FFFFFF"
+          	    android:drawableRight="@drawable/icon_arrow"
+          	    android:gravity="left|center_vertical"
+          	    android:paddingLeft="@dimen/left"
+          	    android:paddingRight="@dimen/right"
+          	    android:text="@string/progector_hotspot_settings"
+          	    android:textSize="18sp" />
+
+          	<LinearLayout
+          	    android:layout_width="match_parent"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="@dimen/left"
+          	    android:layout_marginRight="@dimen/right"
+          	    android:background="@drawable/bg_line"
+          	    android:orientation="horizontal" >
+          	</LinearLayout>
+          	
+          	<RelativeLayout
+          	    android:id="@+id/progector_bluetooth_settings"
+          	    android:layout_width="match_parent"
+          	    android:layout_height="@dimen/progector_set_vh2"
+          	    android:background="#FFFFFF" >
+
+          	    <TextView
+          	        android:layout_width="wrap_content"
+          	        android:layout_height="@dimen/progector_set_vh2"
+          	        android:background="#FFFFFF"
+          	        android:gravity="left|center_vertical"
+          	        android:paddingLeft="@dimen/left"
+          	        android:paddingRight="@dimen/right"
+          	        android:text="@string/progector_bluetooth_settings"
+          	        android:textSize="18sp" />
+
+          	    <ImageView
+          	        android:id="@+id/imageView1"
+          	        android:layout_width="wrap_content"
+          	        android:layout_height="@dimen/progector_set_vh2"
+          	        android:layout_alignParentRight="true"
+          	        android:layout_marginRight="@dimen/right"
+          	        android:src="@drawable/icon_arrow" />
+
+          	    <TextView
+          	        android:layout_width="wrap_content"
+          	        android:layout_height="@dimen/progector_set_vh2"
+          	        android:layout_toLeftOf="@+id/imageView1"
+          	        android:layout_marginRight="@dimen/right"
+          	        android:background="#FFFFFF"
+          	        android:gravity="center_vertical"
+          	        android:text="@string/bluetooth_settings_off"
+          	        android:textColor="@color/lightgray"
+          	        android:textSize="18sp" />
+          	</RelativeLayout>
+          	
+          	<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/progector_set_vh3"
+                android:background="@color/lightgray"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+            </LinearLayout>
+          
+          	<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/progector_set_vh1"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/left"
+                    android:text="@string/progector_other_settings"
+                    android:textSize="12sp" 
+                    android:textColor="@color/lightgray"/>
+            </LinearLayout>
+            
+          	<RelativeLayout
+          	    android:id="@+id/progector_lightness"
+          	    android:layout_width="match_parent"
+          	    android:layout_height="@dimen/progector_set_vh2"
+          	    android:background="#FFFFFF" >
+
+          	    <TextView
+          	        android:layout_width="wrap_content"
+          	        android:layout_height="@dimen/progector_set_vh2"
+          	        android:background="#FFFFFF"
+          	        android:gravity="left|center_vertical"
+          	        android:paddingLeft="@dimen/left"
+          	        android:paddingRight="@dimen/right"
+          	        android:text="@string/progector_lightness"
+          	        android:textSize="18sp" />
+
+          	    <ImageView
+          	        android:id="@+id/imageView1"
+          	        android:layout_width="wrap_content"
+          	        android:layout_height="@dimen/progector_set_vh2"
+          	        android:layout_alignParentRight="true"
+          	        android:layout_marginRight="@dimen/right"
+          	        android:src="@drawable/icon_arrow" />
+
+          	    <TextView
+          	        android:id="@+id/tv_lightness"
+          	        android:layout_width="wrap_content"
+          	        android:layout_height="@dimen/progector_set_vh2"
+          	        android:layout_toLeftOf="@+id/imageView1"
+          	        android:layout_marginRight="@dimen/right"
+          	        android:background="#FFFFFF"
+          	        android:gravity="center_vertical"
+          	        android:text="@string/high_light"
+          	        android:textColor="@color/lightgray"
+          	        android:textSize="18sp" />
+
+          	</RelativeLayout>
+
+          	<LinearLayout
+          	    android:layout_width="match_parent"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="@dimen/left"
+          	    android:layout_marginRight="@dimen/right"
+          	    android:background="@drawable/bg_line"
+          	    android:orientation="horizontal" >
+          	</LinearLayout>
+          	
+          	<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/progector_set_vh2"
+                android:background="#FFFFFF" 
+            	>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/left"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/auto_standby_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/progector_auto_standby"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" 
+                        />
+                </LinearLayout>
+
+                <ToggleButton
+                    android:id="@+id/btn_auto_standby_toggle"
+                    android:layout_width="@dimen/switch_width"
+                    android:layout_height="@dimen/switch_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/right"
+                    android:background="@android:color/transparent"
+                    android:button="@drawable/toggle_btn"
+                    android:checked="false"
+                    android:text=""
+                    android:textOff=""
+                    android:textOn="" 
+                    android:contentDescription="@string/progector_auto_standby"/>
+            </RelativeLayout>
+            
+          	<LinearLayout
+          	    android:layout_width="match_parent"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="@dimen/left"
+          	    android:layout_marginRight="@dimen/right"
+          	    android:background="@drawable/bg_line"
+          	    android:orientation="horizontal" >
+          	</LinearLayout>
+          	
+          	<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/progector_set_vh2"
+                android:background="#FFFFFF" 
+            	>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/left"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/auto_shutdown_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/progector_auto_shutdown"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" 
+                        />
+                </LinearLayout>
+
+                <ToggleButton
+                    android:id="@+id/btn_auto_shutdown_toggle"
+                    android:layout_width="@dimen/switch_width"
+                    android:layout_height="@dimen/switch_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/right"
+                    android:background="@android:color/transparent"
+                    android:button="@drawable/toggle_btn"
+                    android:checked="false"
+                    android:text=""
+                    android:textOff=""
+                    android:textOn="" 
+                    android:contentDescription="@string/progector_auto_shutdown"/>
+            </RelativeLayout>
+            
+          	<LinearLayout
+          	    android:layout_width="match_parent"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="@dimen/left"
+          	    android:layout_marginRight="@dimen/right"
+          	    android:background="@drawable/bg_line"
+          	    android:orientation="horizontal" >
+          	</LinearLayout>
+          	
+          	<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/progector_set_vh2"
+                android:background="#FFFFFF" 
+            	>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/left"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/unknown_source_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/unknown_source"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" 
+                        />
+                </LinearLayout>
+
+                <ToggleButton
+                    android:id="@+id/btn_unknown_source_toggle"
+                    android:layout_width="@dimen/switch_width"
+                    android:layout_height="@dimen/switch_height"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/right"
+                    android:background="@android:color/transparent"
+                    android:button="@drawable/toggle_btn"
+                    android:checked="false"
+                    android:text=""
+                    android:textOff=""
+                    android:textOn="" 
+                    android:contentDescription="@string/unknown_source"/>
+            </RelativeLayout>
+            
+          	<LinearLayout
+          	    android:layout_width="match_parent"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="@dimen/left"
+          	    android:layout_marginRight="@dimen/right"
+          	    android:background="@drawable/bg_line"
+          	    android:orientation="horizontal" >
+          	</LinearLayout>
+          	<Button
+          	    android:id="@+id/keystone_correction"
+          	    android:layout_width="match_parent"
+          	    android:layout_height="@dimen/progector_set_vh2"
+          	    android:background="#FFFFFF"
+          	    android:drawableRight="@drawable/icon_arrow"
+          	    android:gravity="left|center_vertical"
+          	    android:paddingLeft="@dimen/left"
+          	    android:paddingRight="@dimen/right"
+          	    android:text="@string/keystone_correction"
+          	    android:textSize="18sp" />
+
+          	<LinearLayout
+          	    android:layout_width="match_parent"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="@dimen/left"
+          	    android:layout_marginRight="@dimen/right"
+          	    android:background="@drawable/bg_line"
+          	    android:orientation="horizontal" >
+          	</LinearLayout>
+          	
+          	<Button
+          	    android:id="@+id/app_management"
+          	    android:layout_width="match_parent"
+          	    android:layout_height="@dimen/progector_set_vh2"
+          	    android:background="#FFFFFF"
+          	    android:drawableRight="@drawable/icon_arrow"
+          	    android:gravity="left|center_vertical"
+          	    android:paddingLeft="@dimen/left"
+          	    android:paddingRight="@dimen/right"
+          	    android:text="@string/app_management"
+          	    android:textSize="18sp" />
+
+          	<LinearLayout
+          	    android:layout_width="match_parent"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="@dimen/left"
+          	    android:layout_marginRight="@dimen/right"
+          	    android:background="@drawable/bg_line"
+          	    android:orientation="horizontal" >
+          	</LinearLayout>
+          	
+          	<Button
+          	    android:id="@+id/hdmi_advanced_settings"
+          	    android:layout_width="match_parent"
+          	    android:layout_height="@dimen/progector_set_vh2"
+          	    android:background="#FFFFFF"
+          	    android:drawableRight="@drawable/icon_arrow"
+          	    android:gravity="left|center_vertical"
+          	    android:paddingLeft="@dimen/left"
+          	    android:paddingRight="@dimen/right"
+          	    android:text="@string/hdmi_advanced_settings"
+          	    android:textSize="18sp" />
+          	
+          	<LinearLayout
+          	    android:layout_width="match_parent"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="@dimen/left"
+          	    android:layout_marginRight="@dimen/right"
+          	    android:background="@drawable/bg_line"
+          	    android:orientation="horizontal" >
+          	</LinearLayout>
+          	
+          	<Button
+          	    android:id="@+id/apk_file"
+          	    android:layout_width="match_parent"
+          	    android:layout_height="@dimen/progector_set_vh2"
+          	    android:background="#FFFFFF"
+          	    android:drawableRight="@drawable/icon_arrow"
+          	    android:gravity="left|center_vertical"
+          	    android:paddingLeft="@dimen/left"
+          	    android:paddingRight="@dimen/right"
+          	    android:text="@string/apk_file"
+          	    android:textSize="18sp" />
+          	
+          	<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/progector_set_vh3"
+                android:background="@color/lightgray"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+            </LinearLayout>
+         
+          <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/progector_set_vh1"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/left"
+                    android:text="@string/progector_system"
+                    android:textSize="12sp"
+                    android:textColor="@color/lightgray" />
+            </LinearLayout>
+            
+          	<Button
+          	    android:id="@+id/progector_memorary"
+          	    android:layout_width="match_parent"
+          	    android:layout_height="@dimen/progector_set_vh2"
+          	    android:background="#FFFFFF"
+          	    android:drawableRight="@drawable/icon_arrow"
+          	    android:gravity="left|center_vertical"
+          	    android:paddingLeft="@dimen/left"
+          	    android:paddingRight="@dimen/right"
+          	    android:text="@string/progector_memorary"
+          	    android:textSize="18sp" />
+
+          	<LinearLayout
+          	    android:layout_width="match_parent"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="@dimen/left"
+          	    android:layout_marginRight="@dimen/right"
+          	    android:background="@drawable/bg_line"
+          	    android:orientation="horizontal" >
+          	</LinearLayout>
+          	
+          	<Button
+          	    android:id="@+id/empty_memorary"
+          	    android:layout_width="match_parent"
+          	    android:layout_height="@dimen/progector_set_vh2"
+          	    android:background="#FFFFFF"
+          	    android:drawableRight="@drawable/icon_arrow"
+          	    android:gravity="left|center_vertical"
+          	    android:paddingLeft="@dimen/left"
+          	    android:paddingRight="@dimen/right"
+          	    android:text="@string/empty_memorary"
+          	    android:textSize="18sp" />
+
+          	<LinearLayout
+          	    android:layout_width="match_parent"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="@dimen/left"
+          	    android:layout_marginRight="@dimen/right"
+          	    android:background="@drawable/bg_line"
+          	    android:orientation="horizontal" >
+          	</LinearLayout>
+          	
+          	<Button
+          	    android:id="@+id/language_settings"
+          	    android:layout_width="match_parent"
+          	    android:layout_height="@dimen/progector_set_vh2"
+          	    android:background="#FFFFFF"
+          	    android:drawableRight="@drawable/icon_arrow"
+          	    android:gravity="left|center_vertical"
+          	    android:paddingLeft="@dimen/left"
+          	    android:paddingRight="@dimen/right"
+          	    android:text="@string/language_settings"
+          	    android:textSize="18sp" />
+
+          	<LinearLayout
+          	    android:layout_width="match_parent"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="@dimen/left"
+          	    android:layout_marginRight="@dimen/right"
+          	    android:background="@drawable/bg_line"
+          	    android:orientation="horizontal" >
+          	</LinearLayout>
+          	
+          	<Button
+          	    android:id="@+id/date_time"
+          	    android:layout_width="match_parent"
+          	    android:layout_height="@dimen/progector_set_vh2"
+          	    android:background="#FFFFFF"
+          	    android:drawableRight="@drawable/icon_arrow"
+          	    android:gravity="left|center_vertical"
+          	    android:paddingLeft="@dimen/left"
+          	    android:paddingRight="@dimen/right"
+          	    android:text="@string/date_time"
+          	    android:textSize="18sp" />
+          	
+          	<LinearLayout
+          	    android:layout_width="match_parent"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="@dimen/left"
+          	    android:layout_marginRight="@dimen/right"
+          	    android:background="@drawable/bg_line"
+          	    android:orientation="horizontal" >
+          	</LinearLayout>
+            
+          	<Button
+          	    android:id="@+id/progector_about"
+          	    android:layout_width="match_parent"
+          	    android:layout_height="@dimen/progector_set_vh2"
+          	    android:background="#FFFFFF"
+          	    android:drawableRight="@drawable/icon_arrow"
+          	    android:gravity="left|center_vertical"
+          	    android:paddingLeft="@dimen/left"
+          	    android:paddingRight="@dimen/right"
+          	    android:text="@string/progector_about"
+          	    android:textSize="18sp" />
+            
+          	<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/lightgray"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+            </LinearLayout>
+            
+          	<Button
+          	    android:id="@+id/progector_login_password_settings"
+          	    android:layout_width="match_parent"
+          	    android:layout_height="@dimen/progector_set_vh2"
+          	    android:background="#FFFFFF"
+          	    android:drawableRight="@drawable/icon_arrow"
+          	    android:gravity="left|center_vertical"
+          	    android:paddingLeft="@dimen/left"
+          	    android:paddingRight="@dimen/right"
+          	    android:text="@string/progector_login_password_settings"
+          	    android:textSize="18sp" />
+          	
+        <LinearLayout
+          	    android:layout_width="match_parent"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="@dimen/left"
+          	    android:layout_marginRight="@dimen/right"
+          	    android:background="@drawable/bg_line"
+          	    android:orientation="horizontal" >
+          	</LinearLayout>
+          	
+        <Button
+          	    android:id="@+id/progector_shutdown"
+          	    android:layout_width="match_parent"
+          	    android:layout_height="@dimen/progector_set_vh2"
+          	    android:background="#FFFFFF"
+          	    android:drawableRight="@drawable/icon_arrow"
+          	    android:gravity="left|center_vertical"
+          	    android:paddingLeft="@dimen/left"
+          	    android:paddingRight="@dimen/right"
+          	    android:text="@string/progector_shutdown"
+          	    android:textSize="18sp" />
+           
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/lightgray"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+            </LinearLayout>
+         </LinearLayout> 
+        </ScrollView>
+
+</LinearLayout>

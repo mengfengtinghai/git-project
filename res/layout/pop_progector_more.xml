@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/pop_progect_right"
+            android:layout_marginTop="@dimen/title_height"
+            android:background="@color/lightgray"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_line" />
+
+           <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/gray"
+                android:orientation="vertical" >
+                
+               <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/bg_line" />
+               
+				<LinearLayout 
+                    android:id="@+id/project_input"
+                   android:layout_width="match_parent"
+                	android:layout_height="wrap_content"
+                	android:orientation="horizontal"
+                    >
+                    <ImageView 
+                      android:layout_width="wrap_content"
+                	  android:layout_height="@dimen/connect_menu_height"
+                	  android:gravity="center_vertical"  
+                	  android:src="@drawable/progector_voice" 
+                        />
+                    
+                    <TextView
+                    android:id="@+id/by_camera_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/connect_menu_height"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:text="输入"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />                  
+                </LinearLayout>
+               
+               <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/line_1" />
+                
+                <LinearLayout 
+                    android:id="@+id/project_voice"
+                   android:layout_width="match_parent"
+                	android:layout_height="wrap_content"
+                	android:orientation="horizontal"
+                    >
+                    <ImageView 
+                      android:layout_width="wrap_content"
+                	  android:layout_height="@dimen/connect_menu_height"
+                	  android:gravity="center_vertical"  
+                	  android:src="@drawable/progector_voice" 
+                        />
+                    
+                    <TextView
+                    android:id="@+id/by_camera_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/connect_menu_height"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:text="语音"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />                  
+                </LinearLayout>
+
+                
+ 				<TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/line_1" />
+ 				
+ 				<LinearLayout
+ 				     android:id="@+id/progect_volume"
+                   android:layout_width="match_parent"
+                	android:layout_height="wrap_content"
+                	android:orientation="horizontal"
+                    >
+                    <ImageView 
+                      android:layout_width="wrap_content"
+                	  android:layout_height="@dimen/connect_menu_height"
+                	  android:gravity="center_vertical"  
+                	  android:src="@drawable/progector_voice" 
+                        />
+                    
+                    <TextView
+                    android:id="@+id/by_camera_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/connect_menu_height"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:text="音量"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />                  
+                </LinearLayout>
+
+                
+ 				<TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/line_1" />
+ 				
+ 				<LinearLayout 
+ 				    android:id="@+id/progect_cast"
+                   android:layout_width="match_parent"
+                	android:layout_height="wrap_content"
+                	android:orientation="horizontal"
+                    >
+                    <ImageView 
+                      android:layout_width="wrap_content"
+                	  android:layout_height="@dimen/connect_menu_height"
+                	  android:gravity="center_vertical"  
+                	  android:src="@drawable/progector_voice" 
+                        />
+                    
+                    <TextView
+                    android:id="@+id/by_camera_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/connect_menu_height"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:text="截屏"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />                  
+                </LinearLayout>
+
+                
+ 				<TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/line_1" />
+ 				
+ 				<LinearLayout 
+ 				    android:id="@+id/progect_start_hdmi"
+                   android:layout_width="match_parent"
+                	android:layout_height="wrap_content"
+                	android:orientation="horizontal"
+                    >
+                    <ImageView 
+                      android:layout_width="wrap_content"
+                	  android:layout_height="@dimen/connect_menu_height"
+                	  android:gravity="center_vertical"  
+                	  android:src="@drawable/progector_voice" 
+                        />
+                    
+                    <TextView
+                    android:id="@+id/by_camera_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/connect_menu_height"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:text="开启HDMI"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />                  
+                </LinearLayout>
+
+                
+ 				<TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/line_1" />
+ 				
+ 				<LinearLayout
+ 				    android:id="@+id/progect_miracast" 
+                   android:layout_width="match_parent"
+                	android:layout_height="wrap_content"
+                	android:orientation="horizontal"
+                    >
+                    <ImageView 
+                      android:layout_width="wrap_content"
+                	  android:layout_height="@dimen/connect_menu_height"
+                	  android:gravity="center_vertical"  
+                	  android:src="@drawable/progector_voice" 
+                        />
+                    
+                    <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/connect_menu_height"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:text="Miracast"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />                  
+                </LinearLayout>
+
+                
+ 				<TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/line_1" />
+ 				
+ 				<LinearLayout
+ 				    android:id="@+id/progect_setting" 
+                   android:layout_width="match_parent"
+                	android:layout_height="wrap_content"
+                	android:orientation="horizontal"
+                    >
+                    <ImageView 
+                      android:layout_width="wrap_content"
+                	  android:layout_height="@dimen/connect_menu_height"
+                	  android:gravity="center_vertical"  
+                	  android:src="@drawable/progector_voice" 
+                        />
+                    
+                    <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/connect_menu_height"
+                    android:gravity="center_vertical"
+                    android:padding="8dp"
+                    android:text="设置"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />                  
+                </LinearLayout>         				          
+        </LinearLayout>
+
+                
+ 				
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/bg_line" />
+            </LinearLayout>
+        
+    </RelativeLayout>
+
+</RelativeLayout>

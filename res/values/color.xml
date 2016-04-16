@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="white">#FFFFFF</color> 
+  <color name="black">#000000</color> 
+  <color name="red">#CC0000</color> 
+  <color name="lightgray">#BFBFBF</color> 
+  <color name="lightgray2">#A3A3A3</color> 
+  <color name="gray">#808080</color> 
+  <color name="deepgray">#404040</color> 
+  <color name="lightblue">#6699FF</color> 
+  <color name="blue">#3366CC</color> 
+  <color name="deepblue">#003399</color> 
+  <color name="lightgreen">#99CC33</color> 
+  <color name="green">#00CC00</color> 
+  <color name="deepgreen">#FF6600</color> 
+  <color name="lightyellow">#FFCC00</color> 
+  <color name="yellow">#FF9900</color> 
+  <color name="deepyellow">#FF6600</color> 
+  <color name="trans">#00000000</color>
+  <color name="deepwhite">#d5d5d5</color>
+  <color name="lucency">#00000000</color>
+  <color name="main_bg">#c2c2c2</color>
+  <color name="ditialviewlinecolor">#D6D6D6</color>
+  
+  <color name="viewfinder_frame">#ff000000</color>
+  <color name="viewfinder_laser">#ffff0000</color>
+  <color name="viewfinder_mask">#60000000</color>
+  <color name="possible_result_points">#c0ffff00</color> 
+  <color name="result_image_border">#ffffffff</color>
+  <color name="result_minor_text">#ffc0c0c0</color>
+  <color name="result_points">#c000ff00</color>
+  <color name="result_text">#ffffffff</color>
+  <color name="result_view">#b0000000</color>
+  <color name="bg_login_page">#fff9f9f9</color>
+  <color name="bg_full_image">#ff000000</color>
+  <color name="bluetooth_progress">#F56ECD</color>
+  <color name="tabbar_background">#FFF5F5F5</color>
+  <color name="lightgray_overlay">#FFE5E5E5</color>
+</resources>
