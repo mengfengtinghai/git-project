@@ -13,6 +13,7 @@ public class MainActivity extends Activity implements OnClickListener{
 	
 	private Button Btn1;
 	private Button btn2;
+	private Button btn3;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
